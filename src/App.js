@@ -8,6 +8,7 @@ import TicketList from "./components/TicketList";
 function App() {
   // const tickets = [];
   const initialState = { tickets: [] };
+  
   // Registering a reducer
   const [state, dispatch] = useReducer(ticketReducer, initialState);
 
